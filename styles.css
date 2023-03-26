@@ -1,8 +1,6 @@
 body {
     background-color: #eeeeee;
-    text-align: center; 
-    
-    
+    text-align: center;
 }
 
 h1 {
@@ -10,23 +8,16 @@ h1 {
     font-size: 50px;
     color: #333;
 }
-h3{
-    text-align: left;
-}
 
-.background {
-    background-color: #000000;
-    color: wheat;
-    border-style: groove;
-    font-size: x-large;
-    opacity: 0.8;
+h3 {
+    text-align: left;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-    
+    border-radius: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -50,43 +41,61 @@ h3{
     background-color: #04AA6D;
     color: white;
 }
-#about{
+
+#about {
     border-style: groove;
     padding: 2%;
     font-size: x-large;
-    background-image: url(images/dragonlance.jpg);
+    /*background-image: url("images/dragonlance.jpg");*/
     background-size: cover;
     width: 75%;
+    border: 3px solid #0a0a0a;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-attachment: fixed;
 }
-#about1{
-    border-style: groove;
+
+#about1 {
+    /* border-style: hidden;*/
     padding: 2%;
     font-size: x-large;
     background-color: #aed5ae;
     position: left;
     width: 32%;
     opacity: 0.8;
+    border-radius: 10px;
 }
-#about2{
-    border-style: groove;
+
+#about2 {
     padding: 2%;
     font-size: x-large;
     background-color: #aed5ae;
     position: left;
     width: 50%;
     opacity: 0.8;
+    border-radius: 10px;
 }
-#about3{
-    border-style: groove;
+
+#about3 {
     padding: 2%;
     font-size: x-large;
     background-color: #aed5ae;
     position: left;
     width: 50%;
     opacity: 0.8;
+    border-radius: 10px;
 }
-#ads{
-    border: 3px solid #73AD21;
+
+.about4 {
+    background-color: #000000;
+    color: wheat;
+    border-style: groove;
+    font-size: x-large;
+    opacity: 0.8;
+}
+
+#ads {
+    border-style: none;
     font-size: x-large;
     background-color: #aaaaaa;
     position: absolute;
@@ -94,7 +103,9 @@ h3{
     right: 0;
     width: 370px;
     height: 30%;
-     }
+    border-radius: 50px;
+    margin-right: 20px;
+}
 
 /* *aside { 
 	/* border: 3px solid #73AD21; 
@@ -106,21 +117,46 @@ h3{
     width: 370px;
     height: 30%;
 */
-
 footer {
-	background: #707070;
-	
+    background: #707070;
+    border-radius: 10px;
 }
 
-header, nav, section, aside, footer {
-	padding: 5px;
-}
-#section1{
-    border: 3px solid #0a0a0a;
-    border: 1px solid #ddd;
-    border-radius: 100px;
+header,
+nav,
+section,
+aside,
+footer {
     padding: 5px;
-    background-image: url(images/tassFire.webp);
-    height: 450px;
-    
+}
+
+#section1 {
+    border-style: solid;
+    border: 3px solid #0a0a0a;
+    border-radius: 500px 500px 0px 0px;
+    padding: 5px;
+    /*background-image: url("images/tassFire.webp");*/
+    height: 300px;
+    margin: 10px 300px 10px 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+}
+
+#section2 {
+    border-style: solid;
+    border: 3px solid #0a0a0a;
+    border-radius: 0px 0px 500px 500px;
+    padding: 5px;
+    /*background-image: url("images/tassFire.webp");*/
+    height: 300px;
+    margin: 10px 300px 10px 300px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#social {
+    margin-top: 500px;
 }
